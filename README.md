@@ -1,8 +1,6 @@
 # SkyCast
 
-A clean, minimalistic weather app that delivers real-time data using the OpenWeather API.
-
-![image](https://github.com/user-attachments/assets/7ab860e7-3416-43f4-99d8-19c5f87800ae)
+🌟 A clean, minimalistic weather app with real-time data, 5-day forecast, and responsive design, powered by the OpenWeather API.
 
 ## Features
 
@@ -11,7 +9,7 @@ A clean, minimalistic weather app that delivers real-time data using the OpenWea
 - Auto dark/light theme based on system settings
 - Fully responsive for desktop, tablet, and mobile
 - City + country code search and browser geolocation
-- Unit switch: Metric (°C, m/s) ↔ Imperial (°F, mph)
+- Unit switch: Metric (°C, km/h) ↔ Imperial (°F, mph)
 - Detailed wind info, sunrise & sunset times
 - Express backend with OpenWeather API proxy
 
@@ -19,10 +17,10 @@ A clean, minimalistic weather app that delivers real-time data using the OpenWea
 
 ```bash
 # Clone repository
-git clone https://github.com/goncalopolido/clim8
+git clone https://github.com/ApurvaJayswal/FUTURE_FS_02.git
 
 # Install dependencies
-cd clim8 && npm install
+cd FUTURE_FS_02 && npm install
 
 # Set up environment variables
 cp .env.example .env
@@ -31,12 +29,8 @@ cp .env.example .env
 # Start the server
 npm start
 
-# clim8 is now running on http://localhost:3000
+# SkyCast is now running on http://localhost:3000
 ```
-
-## Live Demo
-You can try clim8 at [clim8.polido.pt](https://clim8.polido.pt) — this is the main instance.
-If it's not working, you can use the fallback at [clim8.vercel.app](https://clim8.vercel.app).
 
 ## Notice
 
