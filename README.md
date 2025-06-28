@@ -27,14 +27,14 @@ cp .env.example .env
 # Edit .env and add your OpenWeather API key
 
 # Start the server
-npm start
+npm run dev
 
 # SkyCast is now running on http://localhost:3000
 ```
 
 ## Notice
 
-clim8 currently uses OpenWeather API v2.5 for weather data and v1.0 for geocoding. Future updates to the OpenWeather API may introduce changes that affect compatibility. If newer API versions are released, updating the endpoints and data handling logic may be required.
+SkyCast currently uses OpenWeather API v2.5 for weather data and v1.0 for geocoding. Future updates to the OpenWeather API may introduce changes that affect compatibility. If newer API versions are released, updating the endpoints and data handling logic may be required.
 
 ## Acknowledgments
 
